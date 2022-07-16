@@ -1,0 +1,2 @@
+# bsph
+bspwm settings manager
