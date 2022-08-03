@@ -15,8 +15,8 @@ type model struct {
 
 func initialModel() model {
 	return model{
-		// Our shopping list is a grocery list
-		choices: []string{"Buy carrots", "Buy celery", "Buy kohlrabi"},
+		// List choices
+		choices: []string{"Configure bspwm", "Configure sxhkd", "Configure picom-ibhagwan"},
 
 		// A map which indicates which choices are selected. We're using
 		// the  map like a mathematical set. The keys refer to the indexes
